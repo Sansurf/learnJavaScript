@@ -1,0 +1,33 @@
+body {
+	max-width: 600px;
+}
+
+ul {
+	margin: 0 10px;
+    padding: 0;
+    border: 0;
+}
+
+li {
+	background-color: #E3E3E3;
+	display: inline-block;
+	padding: 5px 10px;
+	border-top-right-radius: 8px;	
+}
+
+.active {
+	border-bottom: 2px solid #E3E3E3;
+	margin-top: -2px;
+}
+
+p {
+	display: none;
+}
+
+.visible {
+	border: 2px solid #e3e3e3;
+    margin-left: 10px;
+    height: 200px;
+    margin: 0 10px;
+    display: block;
+}
